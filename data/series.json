@@ -1,0 +1,453 @@
+[
+    {
+      "id": 101,
+      "type": "series",
+      "title": "Breaking Bad",
+      "year": 2008,
+      "genre": ["Crime", "Drama"],
+      "rating": 9.5,
+      "poster": ""
+    },
+    {
+      "id": 102,
+      "type": "series",
+      "title": "Game of Thrones",
+      "year": 2011,
+      "genre": ["Fantasy", "Drama"],
+      "rating": 9.2,
+      "poster": ""
+    },
+    {
+      "id": 103,
+      "type": "series",
+      "title": "The Wire",
+      "year": 2002,
+      "genre": ["Crime", "Drama"],
+      "rating": 9.3,
+      "poster": ""
+    },
+    {
+      "id": 104,
+      "type": "series",
+      "title": "Sherlock",
+      "year": 2010,
+      "genre": ["Crime", "Mystery"],
+      "rating": 9.1,
+      "poster": ""
+    },
+    {
+      "id": 105,
+      "type": "series",
+      "title": "Stranger Things",
+      "year": 2016,
+      "genre": ["Sci-Fi", "Drama"],
+      "rating": 8.7,
+      "poster": ""
+    },
+    {
+      "id": 106,
+      "type": "series",
+      "title": "The Sopranos",
+      "year": 1999,
+      "genre": ["Crime", "Drama"],
+      "rating": 9.2,
+      "poster": ""
+    },
+    {
+      "id": 107,
+      "type": "series",
+      "title": "Chernobyl",
+      "year": 2019,
+      "genre": ["Drama", "History"],
+      "rating": 9.4,
+      "poster": ""
+    },
+    {
+      "id": 108,
+      "type": "series",
+      "title": "Friends",
+      "year": 1994,
+      "genre": ["Comedy", "Romance"],
+      "rating": 8.9,
+      "poster": ""
+    },
+    {
+      "id": 109,
+      "type": "series",
+      "title": "Dark",
+      "year": 2017,
+      "genre": ["Sci-Fi", "Mystery"],
+      "rating": 8.8,
+      "poster": ""
+    },
+    {
+      "id": 110,
+      "type": "series",
+      "title": "House of the Dragon",
+      "year": 2022,
+      "genre": ["Fantasy", "Drama"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 111,
+      "type": "series",
+      "title": "Better Call Saul",
+      "year": 2015,
+      "genre": ["Crime", "Drama"],
+      "rating": 9.0,
+      "poster": ""
+    },
+    {
+      "id": 112,
+      "type": "series",
+      "title": "The Office (US)",
+      "year": 2005,
+      "genre": ["Comedy"],
+      "rating": 8.9,
+      "poster": ""
+    },
+    {
+      "id": 113,
+      "type": "series",
+      "title": "Peaky Blinders",
+      "year": 2013,
+      "genre": ["Crime", "Drama"],
+      "rating": 8.8,
+      "poster": ""
+    },
+    {
+      "id": 114,
+      "type": "series",
+      "title": "Black Mirror",
+      "year": 2011,
+      "genre": ["Sci-Fi", "Drama"],
+      "rating": 8.8,
+      "poster": ""
+    },
+    {
+      "id": 115,
+      "type": "series",
+      "title": "The Boys",
+      "year": 2019,
+      "genre": ["Action", "Drama"],
+      "rating": 8.7,
+      "poster": ""
+    },
+    {
+      "id": 116,
+      "type": "series",
+      "title": "Narcos",
+      "year": 2015,
+      "genre": ["Crime", "Drama"],
+      "rating": 8.8,
+      "poster": ""
+    },
+    {
+      "id": 117,
+      "type": "series",
+      "title": "Vikings",
+      "year": 2013,
+      "genre": ["History", "Action"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 118,
+      "type": "series",
+      "title": "The Mandalorian",
+      "year": 2019,
+      "genre": ["Sci-Fi", "Adventure"],
+      "rating": 8.7,
+      "poster": ""
+    },
+    {
+      "id": 119,
+      "type": "series",
+      "title": "Westworld",
+      "year": 2016,
+      "genre": ["Sci-Fi", "Drama"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 120,
+      "type": "series",
+      "title": "How I Met Your Mother",
+      "year": 2005,
+      "genre": ["Comedy", "Romance"],
+      "rating": 8.3,
+      "poster": ""
+    },
+    {
+      "id": 121,
+      "type": "series",
+      "title": "The Crown",
+      "year": 2016,
+      "genre": ["Drama", "History"],
+      "rating": 8.6,
+      "poster": ""
+    },
+    {
+      "id": 122,
+      "type": "series",
+      "title": "Ozark",
+      "year": 2017,
+      "genre": ["Crime", "Drama"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 123,
+      "type": "series",
+      "title": "Loki",
+      "year": 2021,
+      "genre": ["Sci-Fi", "Fantasy"],
+      "rating": 8.2,
+      "poster": ""
+    },
+    {
+      "id": 124,
+      "type": "series",
+      "title": "Prison Break",
+      "year": 2005,
+      "genre": ["Action", "Crime"],
+      "rating": 8.3,
+      "poster": ""
+    },
+    {
+      "id": 125,
+      "type": "series",
+      "title": "Lost",
+      "year": 2004,
+      "genre": ["Mystery", "Drama"],
+      "rating": 8.3,
+      "poster": ""
+    },
+    {
+      "id": 126,
+      "type": "series",
+      "title": "The Walking Dead",
+      "year": 2010,
+      "genre": ["Drama", "Horror"],
+      "rating": 8.1,
+      "poster": ""
+    },
+    {
+      "id": 127,
+      "type": "series",
+      "title": "Mindhunter",
+      "year": 2017,
+      "genre": ["Crime", "Drama"],
+      "rating": 8.6,
+      "poster": ""
+    },
+    {
+      "id": 128,
+      "type": "series",
+      "title": "Dexter",
+      "year": 2006,
+      "genre": ["Crime", "Drama"],
+      "rating": 8.6,
+      "poster": ""
+    },
+    {
+      "id": 129,
+      "type": "series",
+      "title": "The Witcher",
+      "year": 2019,
+      "genre": ["Fantasy", "Action"],
+      "rating": 8.1,
+      "poster": ""
+    },
+    {
+      "id": 130,
+      "type": "series",
+      "title": "Money Heist",
+      "year": 2017,
+      "genre": ["Crime", "Drama"],
+      "rating": 8.2,
+      "poster": ""
+    },
+    {
+      "id": 131,
+      "type": "series",
+      "title": "Arcane",
+      "year": 2021,
+      "genre": ["Animation", "Drama"],
+      "rating": 9.0,
+      "poster": ""
+    },
+    {
+      "id": 132,
+      "type": "series",
+      "title": "The Last of Us",
+      "year": 2023,
+      "genre": ["Drama", "Action"],
+      "rating": 8.8,
+      "poster": ""
+    },
+    {
+      "id": 133,
+      "type": "series",
+      "title": "Succession",
+      "year": 2018,
+      "genre": ["Drama"],
+      "rating": 8.9,
+      "poster": ""
+    },
+    {
+      "id": 134,
+      "type": "series",
+      "title": "House",
+      "year": 2004,
+      "genre": ["Drama"],
+      "rating": 8.7,
+      "poster": ""
+    },
+    {
+      "id": 135,
+      "type": "series",
+      "title": "Mr. Robot",
+      "year": 2015,
+      "genre": ["Thriller", "Drama"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 136,
+      "type": "series",
+      "title": "Seinfeld",
+      "year": 1989,
+      "genre": ["Comedy"],
+      "rating": 8.9,
+      "poster": ""
+    },
+    {
+      "id": 137,
+      "type": "series",
+      "title": "Fargo",
+      "year": 2014,
+      "genre": ["Crime", "Drama"],
+      "rating": 8.9,
+      "poster": ""
+    },
+    {
+      "id": 138,
+      "type": "series",
+      "title": "Band of Brothers",
+      "year": 2001,
+      "genre": ["War", "Drama"],
+      "rating": 9.4,
+      "poster": ""
+    },
+    {
+      "id": 139,
+      "type": "series",
+      "title": "The Simpsons",
+      "year": 1989,
+      "genre": ["Animation", "Comedy"],
+      "rating": 8.7,
+      "poster": ""
+    },
+    {
+      "id": 140,
+      "type": "series",
+      "title": "Brooklyn Nine-Nine",
+      "year": 2013,
+      "genre": ["Comedy"],
+      "rating": 8.4,
+      "poster": ""
+    },
+    {
+      "id": 141,
+      "type": "series",
+      "title": "Euphoria",
+      "year": 2019,
+      "genre": ["Drama"],
+      "rating": 8.3,
+      "poster": ""
+    },
+    {
+      "id": 142,
+      "type": "series",
+      "title": "True Detective",
+      "year": 2014,
+      "genre": ["Crime", "Drama"],
+      "rating": 8.9,
+      "poster": ""
+    },
+    {
+      "id": 143,
+      "type": "series",
+      "title": "The Big Bang Theory",
+      "year": 2007,
+      "genre": ["Comedy"],
+      "rating": 8.1,
+      "poster": ""
+    },
+    {
+      "id": 144,
+      "type": "series",
+      "title": "Rick and Morty",
+      "year": 2013,
+      "genre": ["Animation", "Sci-Fi"],
+      "rating": 9.1,
+      "poster": ""
+    },
+    {
+      "id": 145,
+      "type": "series",
+      "title": "The Umbrella Academy",
+      "year": 2019,
+      "genre": ["Action", "Sci-Fi"],
+      "rating": 8.0,
+      "poster": ""
+    },
+    {
+      "id": 146,
+      "type": "series",
+      "title": "Wednesday",
+      "year": 2022,
+      "genre": ["Mystery", "Comedy"],
+      "rating": 8.1,
+      "poster": ""
+    },
+    {
+      "id": 147,
+      "type": "series",
+      "title": "Hannibal",
+      "year": 2013,
+      "genre": ["Crime", "Thriller"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 148,
+      "type": "series",
+      "title": "Modern Family",
+      "year": 2009,
+      "genre": ["Comedy"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 149,
+      "type": "series",
+      "title": "South Park",
+      "year": 1997,
+      "genre": ["Animation", "Comedy"],
+      "rating": 8.7,
+      "poster": ""
+    },
+    {
+      "id": 150,
+      "type": "series",
+      "title": "Ted Lasso",
+      "year": 2020,
+      "genre": ["Comedy", "Drama"],
+      "rating": 8.8,
+      "poster": ""
+    }
+  ]
+  

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Film & Dizi Arşivi</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1>🎬 Film & Dizi Arşivi</h1>
+
+    <div class="controls">
+      <button id="moviesBtn" class="active">Filmler</button>
+      <button id="seriesBtn">Diziler</button>
+      <button id="favoritesBtn">⭐ Favorilerim</button>
+
+      <input type="text" id="searchInput" placeholder="Ara..." />
+      <select id="genreFilter">
+        <option value="">Tüm Türler</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section id="listSection">
+      <h2 id="listTitle">Filmler</h2>
+      <div id="movieGrid" class="grid"></div>
+    </section>
+
+    <section id="detailSection" class="hidden">
+      <button id="backBtn">← Geri</button>
+      <div id="movieDetail"></div>
+    </section>
+  </main>
+
+  <!-- DETAY MODAL -->
+<div id="detailModal" class="modal hidden">
+    <div class="modal-content">
+      <button id="closeModal">✖</button>
+      <div id="modalDetail"></div>
+    </div>
+  </div>
+  
+</body>
+</html>

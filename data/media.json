@@ -1,0 +1,453 @@
+[
+    {
+      "id": 1,
+      "type": "movie",
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "genre": ["Drama"],
+      "rating": 9.3,
+      "poster": ""
+    },
+    {
+      "id": 2,
+      "type": "movie",
+      "title": "The Godfather",
+      "year": 1972,
+      "genre": ["Crime", "Drama"],
+      "rating": 9.2,
+      "poster": ""
+    },
+    {
+      "id": 3,
+      "type": "movie",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "genre": ["Action", "Crime"],
+      "rating": 9.0,
+      "poster": ""
+    },
+    {
+      "id": 4,
+      "type": "movie",
+      "title": "The Godfather Part II",
+      "year": 1974,
+      "genre": ["Crime", "Drama"],
+      "rating": 9.0,
+      "poster": ""
+    },
+    {
+      "id": 5,
+      "type": "movie",
+      "title": "12 Angry Men",
+      "year": 1957,
+      "genre": ["Drama"],
+      "rating": 9.0,
+      "poster": ""
+    },
+    {
+      "id": 6,
+      "type": "movie",
+      "title": "Schindler's List",
+      "year": 1993,
+      "genre": ["Biography", "Drama"],
+      "rating": 8.9,
+      "poster": ""
+    },
+    {
+      "id": 7,
+      "type": "movie",
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "genre": ["Fantasy", "Adventure"],
+      "rating": 8.9,
+      "poster": ""
+    },
+    {
+      "id": 8,
+      "type": "movie",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "genre": ["Crime"],
+      "rating": 8.9,
+      "poster": ""
+    },
+    {
+      "id": 9,
+      "type": "movie",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "genre": ["Fantasy", "Adventure"],
+      "rating": 8.8,
+      "poster": ""
+    },
+    {
+      "id": 10,
+      "type": "movie",
+      "title": "Fight Club",
+      "year": 1999,
+      "genre": ["Drama"],
+      "rating": 8.8,
+      "poster": ""
+    },
+    {
+      "id": 11,
+      "type": "movie",
+      "title": "Forrest Gump",
+      "year": 1994,
+      "genre": ["Drama", "Romance"],
+      "rating": 8.8,
+      "poster": ""
+    },
+    {
+      "id": 12,
+      "type": "movie",
+      "title": "Inception",
+      "year": 2010,
+      "genre": ["Sci-Fi", "Action"],
+      "rating": 8.8,
+      "poster": ""
+    },
+    {
+      "id": 13,
+      "type": "movie",
+      "title": "The Lord of the Rings: The Two Towers",
+      "year": 2002,
+      "genre": ["Fantasy", "Adventure"],
+      "rating": 8.8,
+      "poster": ""
+    },
+    {
+      "id": 14,
+      "type": "movie",
+      "title": "Star Wars: Episode V – The Empire Strikes Back",
+      "year": 1980,
+      "genre": ["Sci-Fi"],
+      "rating": 8.7,
+      "poster": ""
+    },
+    {
+      "id": 15,
+      "type": "movie",
+      "title": "The Matrix",
+      "year": 1999,
+      "genre": ["Sci-Fi", "Action"],
+      "rating": 8.7,
+      "poster": ""
+    },
+    {
+      "id": 16,
+      "type": "movie",
+      "title": "Goodfellas",
+      "year": 1990,
+      "genre": ["Crime"],
+      "rating": 8.7,
+      "poster": ""
+    },
+    {
+      "id": 17,
+      "type": "movie",
+      "title": "One Flew Over the Cuckoo's Nest",
+      "year": 1975,
+      "genre": ["Drama"],
+      "rating": 8.7,
+      "poster": ""
+    },
+    {
+      "id": 18,
+      "type": "movie",
+      "title": "Seven Samurai",
+      "year": 1954,
+      "genre": ["Adventure"],
+      "rating": 8.6,
+      "poster": ""
+    },
+    {
+      "id": 19,
+      "type": "movie",
+      "title": "Se7en",
+      "year": 1995,
+      "genre": ["Crime", "Thriller"],
+      "rating": 8.6,
+      "poster": ""
+    },
+    {
+      "id": 20,
+      "type": "movie",
+      "title": "Interstellar",
+      "year": 2014,
+      "genre": ["Sci-Fi", "Drama"],
+      "rating": 8.6,
+      "poster": ""
+    },
+    {
+      "id": 21,
+      "type": "movie",
+      "title": "City of God",
+      "year": 2002,
+      "genre": ["Crime"],
+      "rating": 8.6,
+      "poster": ""
+    },
+    {
+      "id": 22,
+      "type": "movie",
+      "title": "Spirited Away",
+      "year": 2001,
+      "genre": ["Animation", "Fantasy"],
+      "rating": 8.6,
+      "poster": ""
+    },
+    {
+      "id": 23,
+      "type": "movie",
+      "title": "Saving Private Ryan",
+      "year": 1998,
+      "genre": ["War", "Drama"],
+      "rating": 8.6,
+      "poster": ""
+    },
+    {
+      "id": 24,
+      "type": "movie",
+      "title": "The Green Mile",
+      "year": 1999,
+      "genre": ["Drama"],
+      "rating": 8.6,
+      "poster": ""
+    },
+    {
+      "id": 25,
+      "type": "movie",
+      "title": "Parasite",
+      "year": 2019,
+      "genre": ["Thriller", "Drama"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 26,
+      "type": "movie",
+      "title": "Gladiator",
+      "year": 2000,
+      "genre": ["Action", "Drama"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 27,
+      "type": "movie",
+      "title": "Whiplash",
+      "year": 2014,
+      "genre": ["Drama"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 28,
+      "type": "movie",
+      "title": "The Prestige",
+      "year": 2006,
+      "genre": ["Drama", "Mystery"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 29,
+      "type": "movie",
+      "title": "The Departed",
+      "year": 2006,
+      "genre": ["Crime"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 30,
+      "type": "movie",
+      "title": "The Lion King",
+      "year": 1994,
+      "genre": ["Animation", "Drama"],
+      "rating": 8.5,
+      "poster": ""
+    },
+    {
+      "id": 31,
+      "type": "movie",
+      "title": "Joker",
+      "year": 2019,
+      "genre": ["Drama", "Crime"],
+      "rating": 8.4,
+      "poster": ""
+    },
+    {
+      "id": 32,
+      "type": "movie",
+      "title": "Avengers: Infinity War",
+      "year": 2018,
+      "genre": ["Action"],
+      "rating": 8.4,
+      "poster": ""
+    },
+    {
+      "id": 33,
+      "type": "movie",
+      "title": "Django Unchained",
+      "year": 2012,
+      "genre": ["Western", "Drama"],
+      "rating": 8.4,
+      "poster": ""
+    },
+    {
+      "id": 34,
+      "type": "movie",
+      "title": "The Wolf of Wall Street",
+      "year": 2013,
+      "genre": ["Biography"],
+      "rating": 8.2,
+      "poster": ""
+    },
+    {
+      "id": 35,
+      "type": "movie",
+      "title": "Batman Begins",
+      "year": 2005,
+      "genre": ["Action"],
+      "rating": 8.2,
+      "poster": ""
+    },
+    {
+      "id": 36,
+      "type": "movie",
+      "title": "The Truman Show",
+      "year": 1998,
+      "genre": ["Drama"],
+      "rating": 8.2,
+      "poster": ""
+    },
+    {
+      "id": 37,
+      "type": "movie",
+      "title": "A Beautiful Mind",
+      "year": 2001,
+      "genre": ["Biography"],
+      "rating": 8.2,
+      "poster": ""
+    },
+    {
+      "id": 38,
+      "type": "movie",
+      "title": "Toy Story",
+      "year": 1995,
+      "genre": ["Animation"],
+      "rating": 8.3,
+      "poster": ""
+    },
+    {
+      "id": 39,
+      "type": "movie",
+      "title": "Coco",
+      "year": 2017,
+      "genre": ["Animation"],
+      "rating": 8.4,
+      "poster": ""
+    },
+    {
+      "id": 40,
+      "type": "movie",
+      "title": "Up",
+      "year": 2009,
+      "genre": ["Animation"],
+      "rating": 8.3,
+      "poster": ""
+    },
+    {
+      "id": 41,
+      "type": "movie",
+      "title": "La La Land",
+      "year": 2016,
+      "genre": ["Romance", "Drama"],
+      "rating": 8.0,
+      "poster": ""
+    },
+    {
+      "id": 42,
+      "type": "movie",
+      "title": "Arrival",
+      "year": 2016,
+      "genre": ["Sci-Fi"],
+      "rating": 7.9,
+      "poster": ""
+    },
+    {
+      "id": 43,
+      "type": "movie",
+      "title": "Her",
+      "year": 2013,
+      "genre": ["Romance", "Sci-Fi"],
+      "rating": 8.0,
+      "poster": ""
+    },
+    {
+      "id": 44,
+      "type": "movie",
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "genre": ["Action"],
+      "rating": 8.1,
+      "poster": ""
+    },
+    {
+      "id": 45,
+      "type": "movie",
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "genre": ["Sci-Fi"],
+      "rating": 8.0,
+      "poster": ""
+    },
+    {
+      "id": 46,
+      "type": "movie",
+      "title": "The Social Network",
+      "year": 2010,
+      "genre": ["Biography"],
+      "rating": 7.7,
+      "poster": ""
+    },
+    {
+      "id": 47,
+      "type": "movie",
+      "title": "Black Swan",
+      "year": 2010,
+      "genre": ["Drama"],
+      "rating": 8.0,
+      "poster": ""
+    },
+    {
+      "id": 48,
+      "type": "movie",
+      "title": "Shutter Island",
+      "year": 2010,
+      "genre": ["Thriller"],
+      "rating": 8.2,
+      "poster": ""
+    },
+    {
+      "id": 49,
+      "type": "movie",
+      "title": "No Country for Old Men",
+      "year": 2007,
+      "genre": ["Crime"],
+      "rating": 8.1,
+      "poster": ""
+    },
+    {
+      "id": 50,
+      "type": "movie",
+      "title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "genre": ["Comedy", "Drama"],
+      "rating": 8.1,
+      "poster": ""
+    }
+  ]
+  

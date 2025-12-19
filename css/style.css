@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background: #0f172a;
+    color: #e5e7eb;
+    min-height: 100vh;
+  }
+  
+  .header {
+    padding: 1rem;
+    background: #020617;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.4rem;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .controls input,
+  .controls select,
+  .controls button {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .controls button {
+    cursor: pointer;
+    background: #6366f1;
+    color: white;
+  }
+  
+  .section {
+    padding: 1.5rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+  
+  /* Kart placeholder */
+  .grid::after {
+    content: "Filmler yüklenecek…";
+    opacity: 0.6;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background: #020617;
+    margin-top: auto;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  .movie-card {
+    background: #020617;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: transform 0.2s;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .movie-card h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  .movie-card p {
+    font-size: 0.85rem;
+    opacity: 0.8;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+
+  .controls button.active {
+    background: #22c55e;
+  }
+  
+  #movieDetail {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  #movieDetail img {
+    max-width: 300px;
+    border-radius: 12px;
+  }
+  
+  .detail-info {
+    max-width: 500px;
+  }
+  
+  .detail-info h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .detail-info p {
+    margin: 0.4rem 0;
+    opacity: 0.9;
+  }
+  
+  #backBtn {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: #334155;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .movie-card {
+    position: relative;
+  }
+  
+  /* ⭐ normalde görünmez */
+  .fav-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+  
+    color: #facc15;
+  
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+  
+  /* hover olunca çıksın */
+  .movie-card:hover .fav-btn {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  /* favoriye ekliyse sabit kalsın */
+  .fav-btn.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .fav-btn:hover {
+    transform: scale(1.2);
+  }
+  
+  /* -------- MODAL -------- */
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #020617;
+    padding: 1.5rem;
+    border-radius: 12px;
+    max-width: 700px;
+    width: 90%;
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+  }
+  
+  .modal-content img {
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  #closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #e5e7eb;
+  }
+  
+  .modal.hidden {
+    display: none;
+  }
+  
+  .controls button.active {
+    background: #facc15;
+    color: #020617;
+  }
+
+  
+  
