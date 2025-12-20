@@ -1,453 +1,502 @@
 [
-    {
-      "id": 101,
-      "type": "series",
-      "title": "Breaking Bad",
-      "year": 2008,
-      "genre": ["Crime", "Drama"],
-      "rating": 9.5,
-      "poster": ""
-    },
-    {
-      "id": 102,
-      "type": "series",
-      "title": "Game of Thrones",
-      "year": 2011,
-      "genre": ["Fantasy", "Drama"],
-      "rating": 9.2,
-      "poster": ""
-    },
-    {
-      "id": 103,
-      "type": "series",
-      "title": "The Wire",
-      "year": 2002,
-      "genre": ["Crime", "Drama"],
-      "rating": 9.3,
-      "poster": ""
-    },
-    {
-      "id": 104,
-      "type": "series",
-      "title": "Sherlock",
-      "year": 2010,
-      "genre": ["Crime", "Mystery"],
-      "rating": 9.1,
-      "poster": ""
-    },
-    {
-      "id": 105,
-      "type": "series",
-      "title": "Stranger Things",
-      "year": 2016,
-      "genre": ["Sci-Fi", "Drama"],
-      "rating": 8.7,
-      "poster": ""
-    },
-    {
-      "id": 106,
-      "type": "series",
-      "title": "The Sopranos",
-      "year": 1999,
-      "genre": ["Crime", "Drama"],
-      "rating": 9.2,
-      "poster": ""
-    },
-    {
-      "id": 107,
-      "type": "series",
-      "title": "Chernobyl",
-      "year": 2019,
-      "genre": ["Drama", "History"],
-      "rating": 9.4,
-      "poster": ""
-    },
-    {
-      "id": 108,
-      "type": "series",
-      "title": "Friends",
-      "year": 1994,
-      "genre": ["Comedy", "Romance"],
-      "rating": 8.9,
-      "poster": ""
-    },
-    {
-      "id": 109,
-      "type": "series",
-      "title": "Dark",
-      "year": 2017,
-      "genre": ["Sci-Fi", "Mystery"],
-      "rating": 8.8,
-      "poster": ""
-    },
-    {
-      "id": 110,
-      "type": "series",
-      "title": "House of the Dragon",
-      "year": 2022,
-      "genre": ["Fantasy", "Drama"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 111,
-      "type": "series",
-      "title": "Better Call Saul",
-      "year": 2015,
-      "genre": ["Crime", "Drama"],
-      "rating": 9.0,
-      "poster": ""
-    },
-    {
-      "id": 112,
-      "type": "series",
-      "title": "The Office (US)",
-      "year": 2005,
-      "genre": ["Comedy"],
-      "rating": 8.9,
-      "poster": ""
-    },
-    {
-      "id": 113,
-      "type": "series",
-      "title": "Peaky Blinders",
-      "year": 2013,
-      "genre": ["Crime", "Drama"],
-      "rating": 8.8,
-      "poster": ""
-    },
-    {
-      "id": 114,
-      "type": "series",
-      "title": "Black Mirror",
-      "year": 2011,
-      "genre": ["Sci-Fi", "Drama"],
-      "rating": 8.8,
-      "poster": ""
-    },
-    {
-      "id": 115,
-      "type": "series",
-      "title": "The Boys",
-      "year": 2019,
-      "genre": ["Action", "Drama"],
-      "rating": 8.7,
-      "poster": ""
-    },
-    {
-      "id": 116,
-      "type": "series",
-      "title": "Narcos",
-      "year": 2015,
-      "genre": ["Crime", "Drama"],
-      "rating": 8.8,
-      "poster": ""
-    },
-    {
-      "id": 117,
-      "type": "series",
-      "title": "Vikings",
-      "year": 2013,
-      "genre": ["History", "Action"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 118,
-      "type": "series",
-      "title": "The Mandalorian",
-      "year": 2019,
-      "genre": ["Sci-Fi", "Adventure"],
-      "rating": 8.7,
-      "poster": ""
-    },
-    {
-      "id": 119,
-      "type": "series",
-      "title": "Westworld",
-      "year": 2016,
-      "genre": ["Sci-Fi", "Drama"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 120,
-      "type": "series",
-      "title": "How I Met Your Mother",
-      "year": 2005,
-      "genre": ["Comedy", "Romance"],
-      "rating": 8.3,
-      "poster": ""
-    },
-    {
-      "id": 121,
-      "type": "series",
-      "title": "The Crown",
-      "year": 2016,
-      "genre": ["Drama", "History"],
-      "rating": 8.6,
-      "poster": ""
-    },
-    {
-      "id": 122,
-      "type": "series",
-      "title": "Ozark",
-      "year": 2017,
-      "genre": ["Crime", "Drama"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 123,
-      "type": "series",
-      "title": "Loki",
-      "year": 2021,
-      "genre": ["Sci-Fi", "Fantasy"],
-      "rating": 8.2,
-      "poster": ""
-    },
-    {
-      "id": 124,
-      "type": "series",
-      "title": "Prison Break",
-      "year": 2005,
-      "genre": ["Action", "Crime"],
-      "rating": 8.3,
-      "poster": ""
-    },
-    {
-      "id": 125,
-      "type": "series",
-      "title": "Lost",
-      "year": 2004,
-      "genre": ["Mystery", "Drama"],
-      "rating": 8.3,
-      "poster": ""
-    },
-    {
-      "id": 126,
-      "type": "series",
-      "title": "The Walking Dead",
-      "year": 2010,
-      "genre": ["Drama", "Horror"],
-      "rating": 8.1,
-      "poster": ""
-    },
-    {
-      "id": 127,
-      "type": "series",
-      "title": "Mindhunter",
-      "year": 2017,
-      "genre": ["Crime", "Drama"],
-      "rating": 8.6,
-      "poster": ""
-    },
-    {
-      "id": 128,
-      "type": "series",
-      "title": "Dexter",
-      "year": 2006,
-      "genre": ["Crime", "Drama"],
-      "rating": 8.6,
-      "poster": ""
-    },
-    {
-      "id": 129,
-      "type": "series",
-      "title": "The Witcher",
-      "year": 2019,
-      "genre": ["Fantasy", "Action"],
-      "rating": 8.1,
-      "poster": ""
-    },
-    {
-      "id": 130,
-      "type": "series",
-      "title": "Money Heist",
-      "year": 2017,
-      "genre": ["Crime", "Drama"],
-      "rating": 8.2,
-      "poster": ""
-    },
-    {
-      "id": 131,
-      "type": "series",
-      "title": "Arcane",
-      "year": 2021,
-      "genre": ["Animation", "Drama"],
-      "rating": 9.0,
-      "poster": ""
-    },
-    {
-      "id": 132,
-      "type": "series",
-      "title": "The Last of Us",
-      "year": 2023,
-      "genre": ["Drama", "Action"],
-      "rating": 8.8,
-      "poster": ""
-    },
-    {
-      "id": 133,
-      "type": "series",
-      "title": "Succession",
-      "year": 2018,
-      "genre": ["Drama"],
-      "rating": 8.9,
-      "poster": ""
-    },
-    {
-      "id": 134,
-      "type": "series",
-      "title": "House",
-      "year": 2004,
-      "genre": ["Drama"],
-      "rating": 8.7,
-      "poster": ""
-    },
-    {
-      "id": 135,
-      "type": "series",
-      "title": "Mr. Robot",
-      "year": 2015,
-      "genre": ["Thriller", "Drama"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 136,
-      "type": "series",
-      "title": "Seinfeld",
-      "year": 1989,
-      "genre": ["Comedy"],
-      "rating": 8.9,
-      "poster": ""
-    },
-    {
-      "id": 137,
-      "type": "series",
-      "title": "Fargo",
-      "year": 2014,
-      "genre": ["Crime", "Drama"],
-      "rating": 8.9,
-      "poster": ""
-    },
-    {
-      "id": 138,
-      "type": "series",
-      "title": "Band of Brothers",
-      "year": 2001,
-      "genre": ["War", "Drama"],
-      "rating": 9.4,
-      "poster": ""
-    },
-    {
-      "id": 139,
-      "type": "series",
-      "title": "The Simpsons",
-      "year": 1989,
-      "genre": ["Animation", "Comedy"],
-      "rating": 8.7,
-      "poster": ""
-    },
-    {
-      "id": 140,
-      "type": "series",
-      "title": "Brooklyn Nine-Nine",
-      "year": 2013,
-      "genre": ["Comedy"],
-      "rating": 8.4,
-      "poster": ""
-    },
-    {
-      "id": 141,
-      "type": "series",
-      "title": "Euphoria",
-      "year": 2019,
-      "genre": ["Drama"],
-      "rating": 8.3,
-      "poster": ""
-    },
-    {
-      "id": 142,
-      "type": "series",
-      "title": "True Detective",
-      "year": 2014,
-      "genre": ["Crime", "Drama"],
-      "rating": 8.9,
-      "poster": ""
-    },
-    {
-      "id": 143,
-      "type": "series",
-      "title": "The Big Bang Theory",
-      "year": 2007,
-      "genre": ["Comedy"],
-      "rating": 8.1,
-      "poster": ""
-    },
-    {
-      "id": 144,
-      "type": "series",
-      "title": "Rick and Morty",
-      "year": 2013,
-      "genre": ["Animation", "Sci-Fi"],
-      "rating": 9.1,
-      "poster": ""
-    },
-    {
-      "id": 145,
-      "type": "series",
-      "title": "The Umbrella Academy",
-      "year": 2019,
-      "genre": ["Action", "Sci-Fi"],
-      "rating": 8.0,
-      "poster": ""
-    },
-    {
-      "id": 146,
-      "type": "series",
-      "title": "Wednesday",
-      "year": 2022,
-      "genre": ["Mystery", "Comedy"],
-      "rating": 8.1,
-      "poster": ""
-    },
-    {
-      "id": 147,
-      "type": "series",
-      "title": "Hannibal",
-      "year": 2013,
-      "genre": ["Crime", "Thriller"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 148,
-      "type": "series",
-      "title": "Modern Family",
-      "year": 2009,
-      "genre": ["Comedy"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 149,
-      "type": "series",
-      "title": "South Park",
-      "year": 1997,
-      "genre": ["Animation", "Comedy"],
-      "rating": 8.7,
-      "poster": ""
-    },
-    {
-      "id": 150,
-      "type": "series",
-      "title": "Ted Lasso",
-      "year": 2020,
-      "genre": ["Comedy", "Drama"],
-      "rating": 8.8,
-      "poster": ""
-    }
-  ]
-  
+  {
+    "id": 101,
+    "type": "series",
+    "title": "Breaking Bad",
+    "year": 2008,
+    "genre": ["Crime", "Drama"],
+    "rating": 9.5,
+    "poster": "images/series/101.jpg",
+    "overview": "Kanser teşhisi konan bir kimya öğretmeninin ailesinin geleceğini güvence altına almak için uyuşturucu dünyasına adım atmasını anlatır."
+  },
+  {
+    "id": 102,
+    "type": "series",
+    "title": "Game of Thrones",
+    "year": 2011,
+    "genre": ["Fantasy", "Drama"],
+    "rating": 9.2,
+    "poster": "images/series/102.jpg",
+    "overview": "Yedi Krallık’ta farklı hanedanların demir tahta sahip olmak için verdikleri acımasız güç mücadelesini konu alır."
+  },
+  {
+    "id": 103,
+    "type": "series",
+    "title": "The Wire",
+    "year": 2002,
+    "genre": ["Crime", "Drama"],
+    "rating": 9.3,
+    "poster": "images/series/103.jpg",
+    "overview": "Baltimore şehrinde suç, polis, siyaset ve medya arasındaki karmaşık ilişkiyi gerçekçi bir bakışla anlatır."
+  },
+  {
+    "id": 104,
+    "type": "series",
+    "title": "Sherlock",
+    "year": 2010,
+    "genre": ["Crime", "Mystery"],
+    "rating": 9.1,
+    "poster": "images/series/104.jpg",
+    "overview": "Dahi dedektif Sherlock Holmes’un modern Londra’da karmaşık suçları çözmesini konu alır."
+  },
+  {
+    "id": 105,
+    "type": "series",
+    "title": "Stranger Things",
+    "year": 2016,
+    "genre": ["Sci-Fi", "Drama"],
+    "rating": 8.7,
+    "poster": "images/series/105.jpg",
+    "overview": "Küçük bir kasabada kaybolan bir çocuğun ardından ortaya çıkan doğaüstü olayları ve gizli deneyleri anlatır."
+  },
+  {
+    "id": 106,
+    "type": "series",
+    "title": "The Sopranos",
+    "year": 1999,
+    "genre": ["Crime", "Drama"],
+    "rating": 9.2,
+    "poster": "images/series/106.jpg",
+    "overview": "Bir mafya liderinin suç dünyasındaki hayatı ile ailevi ve psikolojik sorunlarını birlikte ele alır."
+  },
+  {
+    "id": 107,
+    "type": "series",
+    "title": "Chernobyl",
+    "year": 2019,
+    "genre": ["Drama", "History"],
+    "rating": 9.4,
+    "poster": "images/series/107.jpg",
+    "overview": "1986 Çernobil nükleer felaketinin ardındaki ihmalleri ve yaşanan insanlık dramını anlatır."
+  },
+  {
+    "id": 108,
+    "type": "series",
+    "title": "Friends",
+    "year": 1994,
+    "genre": ["Comedy", "Romance"],
+    "rating": 8.9,
+    "poster": "images/series/108.jpg",
+    "overview": "New York’ta yaşayan altı arkadaşın aşk, kariyer ve dostluk üzerine yaşadıkları eğlenceli olayları konu alır."
+  },
+  {
+    "id": 109,
+    "type": "series",
+    "title": "Dark",
+    "year": 2017,
+    "genre": ["Sci-Fi", "Mystery"],
+    "rating": 8.8,
+    "poster": "images/series/109.jpg",
+    "overview": "Bir kasabada yaşanan zaman yolculuğu üzerinden aile sırlarını ve kader kavramını sorgulayan karmaşık bir hikâye anlatır."
+  },
+  {
+    "id": 110,
+    "type": "series",
+    "title": "House of the Dragon",
+    "year": 2022,
+    "genre": ["Fantasy", "Drama"],
+    "rating": 8.5,
+    "poster": "images/series/110.jpg",
+    "overview": "Targaryen Hanedanı’nın iç savaşla parçalanışını ve ejderhalar arasındaki güç mücadelesini konu alır."
+  },
+  {
+    "id": 111,
+    "type": "series",
+    "title": "Better Call Saul",
+    "year": 2015,
+    "genre": ["Crime", "Drama"],
+    "rating": 9.0,
+    "poster": "images/series/111.jpg",
+    "overview": "Avukat Jimmy McGill’in ahlaki sınırları zorlayarak Saul Goodman’a dönüşme sürecini anlatır."
+  },
+  {
+    "id": 112,
+    "type": "series",
+    "title": "The Office (US)",
+    "year": 2005,
+    "genre": ["Comedy"],
+    "rating": 8.9,
+    "poster": "images/series/112.jpg",
+    "overview": "Bir ofis ortamında çalışan sıradan insanların absürt ve komik günlük yaşamlarını belgesel tarzında anlatır."
+  },
+  {
+    "id": 113,
+    "type": "series",
+    "title": "Peaky Blinders",
+    "year": 2013,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.8,
+    "poster": "images/series/113.jpg",
+    "overview": "I. Dünya Savaşı sonrası İngiltere’de bir suç çetesinin güç kazanma mücadelesini konu alır."
+  },
+  {
+    "id": 114,
+    "type": "series",
+    "title": "Black Mirror",
+    "year": 2011,
+    "genre": ["Sci-Fi", "Drama"],
+    "rating": 8.8,
+    "poster": "images/series/114.jpg",
+    "overview": "Teknolojinin insan hayatı üzerindeki karanlık etkilerini bağımsız hikâyelerle ele alan bir antoloji dizisidir."
+  },
+  {
+    "id": 115,
+    "type": "series",
+    "title": "The Boys",
+    "year": 2019,
+    "genre": ["Action", "Drama"],
+    "rating": 8.7,
+    "poster": "images/series/115.jpg",
+    "overview": "Süper kahramanların yozlaşmış bir dünyada halkı nasıl manipüle ettiğini sert bir dille anlatır."
+  },
+  {
+    "id": 116,
+    "type": "series",
+    "title": "Narcos",
+    "year": 2015,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.8,
+    "poster": "images/series/116.jpg",
+    "overview": "Uyuşturucu baronu Pablo Escobar ve Kolombiya’daki kartel savaşlarını gerçek olaylardan esinlenerek anlatır."
+  },
+  {
+    "id": 117,
+    "type": "series",
+    "title": "Vikings",
+    "year": 2013,
+    "genre": ["History", "Action"],
+    "rating": 8.5,
+    "poster": "images/series/117.jpg",
+    "overview": "Efsanevi Viking savaşçısı Ragnar Lothbrok ve soyunun fetihlerle dolu hikâyesini anlatır."
+  },
+  {
+    "id": 118,
+    "type": "series",
+    "title": "The Mandalorian",
+    "year": 2019,
+    "genre": ["Sci-Fi", "Adventure"],
+    "rating": 8.7,
+    "poster": "images/series/118.jpg",
+    "overview": "Galaksinin ücra köşelerinde görev yapan bir ödül avcısının maceralarını konu alır."
+  },
+  {
+    "id": 119,
+    "type": "series",
+    "title": "Westworld",
+    "year": 2016,
+    "genre": ["Sci-Fi", "Drama"],
+    "rating": 8.5,
+    "poster": "images/series/119.jpg",
+    "overview": "Yapay zekâlarla dolu bir eğlence parkında bilinç, özgür irade ve insanlık kavramlarını sorgular."
+  },
+  {
+    "id": 120,
+    "type": "series",
+    "title": "How I Met Your Mother",
+    "year": 2005,
+    "genre": ["Comedy", "Romance"],
+    "rating": 8.3,
+    "poster": "images/series/120.jpg",
+    "overview": "Bir babanın çocuklarına anneleriyle nasıl tanıştığını anlatırken yaşadığı komik anıları konu alır."
+  },
+  {
+    "id": 121,
+    "type": "series",
+    "title": "The Crown",
+    "year": 2016,
+    "genre": ["Drama", "History"],
+    "rating": 8.6,
+    "poster": "images/series/121.jpg",
+    "overview": "Kraliçe II. Elizabeth’in hükümdarlığı boyunca yaşanan siyasi ve kişisel olayları anlatır."
+  },
+  {
+    "id": 122,
+    "type": "series",
+    "title": "Ozark",
+    "year": 2017,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.5,
+    "poster": "images/series/122.jpg",
+    "overview": "Para aklama işine bulaşan bir ailenin hayatta kalmak için verdiği tehlikeli mücadeleyi konu alır."
+  },
+  {
+    "id": 123,
+    "type": "series",
+    "title": "Loki",
+    "year": 2021,
+    "genre": ["Sci-Fi", "Fantasy"],
+    "rating": 8.2,
+    "poster": "images/series/123.jpg",
+    "overview": "Marvel evreninin kaotik karakteri Loki’nin zaman çizgileri arasında yaşadığı maceraları anlatır."
+  },
+  {
+    "id": 124,
+    "type": "series",
+    "title": "Prison Break",
+    "year": 2005,
+    "genre": ["Action", "Crime"],
+    "rating": 8.3,
+    "poster": "images/series/124.jpg",
+    "overview": "Kardeşini idamdan kurtarmak için bilerek hapse giren bir adamın kaçış planını konu alır."
+  },
+  {
+    "id": 125,
+    "type": "series",
+    "title": "Lost",
+    "year": 2004,
+    "genre": ["Mystery", "Drama"],
+    "rating": 8.3,
+    "poster": "images/series/125.jpg",
+    "overview": "Bir uçak kazasından sağ kurtulanların gizemli bir adada yaşadıkları esrarengiz olayları anlatır."
+  },
+  {
+    "id": 126,
+    "type": "series",
+    "title": "The Walking Dead",
+    "year": 2010,
+    "genre": ["Drama", "Horror"],
+    "rating": 8.1,
+    "poster": "images/series/126.jpg",
+    "overview": "Zombi salgını sonrası hayatta kalan insanların yeni bir dünyada verdikleri yaşam mücadelesini anlatır."
+  },
+  {
+    "id": 127,
+    "type": "series",
+    "title": "Mindhunter",
+    "year": 2017,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.6,
+    "poster": "images/series/127.jpg",
+    "overview": "Seri katillerin psikolojisini anlamaya çalışan FBI ajanlarının gerçek olaylara dayanan hikâyesini anlatır."
+  },
+  {
+    "id": 128,
+    "type": "series",
+    "title": "Dexter",
+    "year": 2006,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.6,
+    "poster": "images/series/128.jpg",
+    "overview": "Gündüz adli tıp uzmanı, gece ise seri katil olan Dexter’ın ikili yaşamını konu alır."
+  },
+  {
+    "id": 129,
+    "type": "series",
+    "title": "The Witcher",
+    "year": 2019,
+    "genre": ["Fantasy", "Action"],
+    "rating": 8.1,
+    "poster": "images/series/129.jpg",
+    "overview": "Canavar avcısı Geralt’ın kader, büyü ve savaşla örülü dünyadaki yolculuğunu anlatır."
+  },
+  {
+    "id": 130,
+    "type": "series",
+    "title": "Money Heist",
+    "year": 2017,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.2,
+    "poster": "images/series/130.jpg",
+    "overview": "Profesör liderliğinde bir grubun İspanya Kraliyet Darphanesi’ni soyma planını konu alır."
+  },
+  {
+    "id": 131,
+    "type": "series",
+    "title": "Arcane",
+    "year": 2021,
+    "genre": ["Animation", "Drama"],
+    "rating": 9.0,
+    "poster": "images/series/131.jpg",
+    "overview": "Piltover ve Zaun şehirlerinde geçen, güç ve sınıf çatışmasını konu alan animasyon bir hikâyedir."
+  },
+  {
+    "id": 132,
+    "type": "series",
+    "title": "The Last of Us",
+    "year": 2023,
+    "genre": ["Drama", "Action"],
+    "rating": 8.8,
+    "poster": "images/series/132.jpg",
+    "overview": "Kıyamet sonrası bir dünyada hayatta kalmaya çalışan iki insanın duygusal yolculuğunu anlatır."
+  },
+  {
+    "id": 133,
+    "type": "series",
+    "title": "Succession",
+    "year": 2018,
+    "genre": ["Drama"],
+    "rating": 8.9,
+    "poster": "images/series/133.jpg",
+    "overview": "Medya imparatorluğunu yöneten bir ailenin güç, ihanet ve miras savaşlarını konu alır."
+  },
+  {
+    "id": 134,
+    "type": "series",
+    "title": "House",
+    "year": 2004,
+    "genre": ["Drama"],
+    "rating": 8.7,
+    "poster": "images/series/134.jpg",
+    "overview": "Dahi ama huysuz bir doktorun karmaşık vakaları sıra dışı yöntemlerle çözmesini anlatır."
+  },
+  {
+    "id": 135,
+    "type": "series",
+    "title": "Mr. Robot",
+    "year": 2015,
+    "genre": ["Thriller", "Drama"],
+    "rating": 8.5,
+    "poster": "images/series/135.jpg",
+    "overview": "Toplumsal düzeni yıkmayı hedefleyen bir hacker’ın zihinsel mücadelesini konu alır."
+  },
+  {
+    "id": 136,
+    "type": "series",
+    "title": "Seinfeld",
+    "year": 1989,
+    "genre": ["Comedy"],
+    "rating": 8.9,
+    "poster": "images/series/136.jpg",
+    "overview": "Gündelik hayatın küçük ayrıntılarından komedi çıkaran, sıradan insanların hikâyesini anlatır."
+  },
+  {
+    "id": 137,
+    "type": "series",
+    "title": "Fargo",
+    "year": 2014,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.9,
+    "poster": "images/series/137.jpg",
+    "overview": "Her sezonu farklı bir suç hikâyesi anlatan, kara mizah ve gerilim dolu bir antoloji dizisidir."
+  },
+  {
+    "id": 138,
+    "type": "series",
+    "title": "Band of Brothers",
+    "year": 2001,
+    "genre": ["War", "Drama"],
+    "rating": 9.4,
+    "poster": "images/series/138.jpg",
+    "overview": "II. Dünya Savaşı’nda görev yapan bir paraşüt birliğinin gerçek hikâyesini anlatır."
+  },
+  {
+    "id": 139,
+    "type": "series",
+    "title": "The Simpsons",
+    "year": 1989,
+    "genre": ["Animation", "Comedy"],
+    "rating": 8.7,
+    "poster": "images/series/139.jpg",
+    "overview": "Amerikan toplumunu hicivle ele alan, uzun soluklu bir animasyon dizisidir."
+  },
+  {
+    "id": 140,
+    "type": "series",
+    "title": "Brooklyn Nine-Nine",
+    "year": 2013,
+    "genre": ["Comedy"],
+    "rating": 8.4,
+    "poster": "images/series/140.jpg",
+    "overview": "Bir polis karakolunda çalışan dedektiflerin komik ve eğlenceli maceralarını anlatır."
+  },
+  {
+    "id": 141,
+    "type": "series",
+    "title": "Euphoria",
+    "year": 2019,
+    "genre": ["Drama"],
+    "rating": 8.3,
+    "poster": "images/series/141.jpg",
+    "overview": "Gençlerin bağımlılık, kimlik ve ilişkilerle olan zorlu mücadelesini çarpıcı bir şekilde işler."
+  },
+  {
+    "id": 142,
+    "type": "series",
+    "title": "True Detective",
+    "year": 2014,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.9,
+    "poster": "images/series/142.jpg",
+    "overview": "Her sezon farklı dedektiflerin karanlık suç dosyalarıyla yüzleşmesini konu alan bir antolojidir."
+  },
+  {
+    "id": 143,
+    "type": "series",
+    "title": "The Big Bang Theory",
+    "year": 2007,
+    "genre": ["Comedy"],
+    "rating": 8.1,
+    "poster": "images/series/143.jpg",
+    "overview": "Sosyal açıdan beceriksiz bilim insanlarının dostluk ve aşk maceralarını mizahi bir dille anlatır."
+  },
+  {
+    "id": 144,
+    "type": "series",
+    "title": "Rick and Morty",
+    "year": 2013,
+    "genre": ["Animation", "Sci-Fi"],
+    "rating": 9.1,
+    "poster": "images/series/144.jpg",
+    "overview": "Dahi ama çılgın bir bilim insanı ile torununun çoklu evrenler arası absürt maceralarını anlatır."
+  },
+  {
+    "id": 145,
+    "type": "series",
+    "title": "The Umbrella Academy",
+    "year": 2019,
+    "genre": ["Action", "Sci-Fi"],
+    "rating": 8.0,
+    "poster": "images/series/145.jpg",
+    "overview": "Özel güçlere sahip kardeşlerin dünyayı kurtarmaya çalışırken aile bağlarıyla yüzleşmesini konu alır."
+  },
+  {
+    "id": 146,
+    "type": "series",
+    "title": "Wednesday",
+    "year": 2022,
+    "genre": ["Mystery", "Comedy"],
+    "rating": 8.1,
+    "poster": "images/series/146.jpg",
+    "overview": "Wednesday Addams’ın gizemli bir okulda işlenen suçları çözmeye çalışmasını anlatır."
+  },
+  {
+    "id": 147,
+    "type": "series",
+    "title": "Hannibal",
+    "year": 2013,
+    "genre": ["Crime", "Thriller"],
+    "rating": 8.5,
+    "poster": "images/series/147.jpg",
+    "overview": "Ünlü seri katil Hannibal Lecter ile bir FBI ajanı arasındaki psikolojik oyunu konu alır."
+  },
+  {
+    "id": 148,
+    "type": "series",
+    "title": "Modern Family",
+    "year": 2009,
+    "genre": ["Comedy"],
+    "rating": 8.5,
+    "poster": "images/series/148.jpg",
+    "overview": "Farklı aile yapılarına sahip bireylerin günlük yaşamlarını eğlenceli bir dille anlatır."
+  },
+  {
+    "id": 149,
+    "type": "series",
+    "title": "South Park",
+    "year": 1997,
+    "genre": ["Animation", "Comedy"],
+    "rating": 8.7,
+    "poster": "images/series/149.jpg",
+    "overview": "Toplumsal olayları ve popüler kültürü sert bir mizahla ele alan animasyon dizisidir."
+  },
+  {
+    "id": 150,
+    "type": "series",
+    "title": "Ted Lasso",
+    "year": 2020,
+    "genre": ["Comedy", "Drama"],
+    "rating": 8.8,
+    "poster": "images/series/150.jpg",
+    "overview": "Futbol bilgisi olmayan iyimser bir Amerikan koçun İngiltere’de bir futbol takımını çalıştırmasını anlatır."
+  }
+]

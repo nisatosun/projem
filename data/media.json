@@ -1,453 +1,502 @@
 [
-    {
-      "id": 1,
-      "type": "movie",
-      "title": "The Shawshank Redemption",
-      "year": 1994,
-      "genre": ["Drama"],
-      "rating": 9.3,
-      "poster": ""
-    },
-    {
-      "id": 2,
-      "type": "movie",
-      "title": "The Godfather",
-      "year": 1972,
-      "genre": ["Crime", "Drama"],
-      "rating": 9.2,
-      "poster": ""
-    },
-    {
-      "id": 3,
-      "type": "movie",
-      "title": "The Dark Knight",
-      "year": 2008,
-      "genre": ["Action", "Crime"],
-      "rating": 9.0,
-      "poster": ""
-    },
-    {
-      "id": 4,
-      "type": "movie",
-      "title": "The Godfather Part II",
-      "year": 1974,
-      "genre": ["Crime", "Drama"],
-      "rating": 9.0,
-      "poster": ""
-    },
-    {
-      "id": 5,
-      "type": "movie",
-      "title": "12 Angry Men",
-      "year": 1957,
-      "genre": ["Drama"],
-      "rating": 9.0,
-      "poster": ""
-    },
-    {
-      "id": 6,
-      "type": "movie",
-      "title": "Schindler's List",
-      "year": 1993,
-      "genre": ["Biography", "Drama"],
-      "rating": 8.9,
-      "poster": ""
-    },
-    {
-      "id": 7,
-      "type": "movie",
-      "title": "The Lord of the Rings: The Return of the King",
-      "year": 2003,
-      "genre": ["Fantasy", "Adventure"],
-      "rating": 8.9,
-      "poster": ""
-    },
-    {
-      "id": 8,
-      "type": "movie",
-      "title": "Pulp Fiction",
-      "year": 1994,
-      "genre": ["Crime"],
-      "rating": 8.9,
-      "poster": ""
-    },
-    {
-      "id": 9,
-      "type": "movie",
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "year": 2001,
-      "genre": ["Fantasy", "Adventure"],
-      "rating": 8.8,
-      "poster": ""
-    },
-    {
-      "id": 10,
-      "type": "movie",
-      "title": "Fight Club",
-      "year": 1999,
-      "genre": ["Drama"],
-      "rating": 8.8,
-      "poster": ""
-    },
-    {
-      "id": 11,
-      "type": "movie",
-      "title": "Forrest Gump",
-      "year": 1994,
-      "genre": ["Drama", "Romance"],
-      "rating": 8.8,
-      "poster": ""
-    },
-    {
-      "id": 12,
-      "type": "movie",
-      "title": "Inception",
-      "year": 2010,
-      "genre": ["Sci-Fi", "Action"],
-      "rating": 8.8,
-      "poster": ""
-    },
-    {
-      "id": 13,
-      "type": "movie",
-      "title": "The Lord of the Rings: The Two Towers",
-      "year": 2002,
-      "genre": ["Fantasy", "Adventure"],
-      "rating": 8.8,
-      "poster": ""
-    },
-    {
-      "id": 14,
-      "type": "movie",
-      "title": "Star Wars: Episode V – The Empire Strikes Back",
-      "year": 1980,
-      "genre": ["Sci-Fi"],
-      "rating": 8.7,
-      "poster": ""
-    },
-    {
-      "id": 15,
-      "type": "movie",
-      "title": "The Matrix",
-      "year": 1999,
-      "genre": ["Sci-Fi", "Action"],
-      "rating": 8.7,
-      "poster": ""
-    },
-    {
-      "id": 16,
-      "type": "movie",
-      "title": "Goodfellas",
-      "year": 1990,
-      "genre": ["Crime"],
-      "rating": 8.7,
-      "poster": ""
-    },
-    {
-      "id": 17,
-      "type": "movie",
-      "title": "One Flew Over the Cuckoo's Nest",
-      "year": 1975,
-      "genre": ["Drama"],
-      "rating": 8.7,
-      "poster": ""
-    },
-    {
-      "id": 18,
-      "type": "movie",
-      "title": "Seven Samurai",
-      "year": 1954,
-      "genre": ["Adventure"],
-      "rating": 8.6,
-      "poster": ""
-    },
-    {
-      "id": 19,
-      "type": "movie",
-      "title": "Se7en",
-      "year": 1995,
-      "genre": ["Crime", "Thriller"],
-      "rating": 8.6,
-      "poster": ""
-    },
-    {
-      "id": 20,
-      "type": "movie",
-      "title": "Interstellar",
-      "year": 2014,
-      "genre": ["Sci-Fi", "Drama"],
-      "rating": 8.6,
-      "poster": ""
-    },
-    {
-      "id": 21,
-      "type": "movie",
-      "title": "City of God",
-      "year": 2002,
-      "genre": ["Crime"],
-      "rating": 8.6,
-      "poster": ""
-    },
-    {
-      "id": 22,
-      "type": "movie",
-      "title": "Spirited Away",
-      "year": 2001,
-      "genre": ["Animation", "Fantasy"],
-      "rating": 8.6,
-      "poster": ""
-    },
-    {
-      "id": 23,
-      "type": "movie",
-      "title": "Saving Private Ryan",
-      "year": 1998,
-      "genre": ["War", "Drama"],
-      "rating": 8.6,
-      "poster": ""
-    },
-    {
-      "id": 24,
-      "type": "movie",
-      "title": "The Green Mile",
-      "year": 1999,
-      "genre": ["Drama"],
-      "rating": 8.6,
-      "poster": ""
-    },
-    {
-      "id": 25,
-      "type": "movie",
-      "title": "Parasite",
-      "year": 2019,
-      "genre": ["Thriller", "Drama"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 26,
-      "type": "movie",
-      "title": "Gladiator",
-      "year": 2000,
-      "genre": ["Action", "Drama"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 27,
-      "type": "movie",
-      "title": "Whiplash",
-      "year": 2014,
-      "genre": ["Drama"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 28,
-      "type": "movie",
-      "title": "The Prestige",
-      "year": 2006,
-      "genre": ["Drama", "Mystery"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 29,
-      "type": "movie",
-      "title": "The Departed",
-      "year": 2006,
-      "genre": ["Crime"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 30,
-      "type": "movie",
-      "title": "The Lion King",
-      "year": 1994,
-      "genre": ["Animation", "Drama"],
-      "rating": 8.5,
-      "poster": ""
-    },
-    {
-      "id": 31,
-      "type": "movie",
-      "title": "Joker",
-      "year": 2019,
-      "genre": ["Drama", "Crime"],
-      "rating": 8.4,
-      "poster": ""
-    },
-    {
-      "id": 32,
-      "type": "movie",
-      "title": "Avengers: Infinity War",
-      "year": 2018,
-      "genre": ["Action"],
-      "rating": 8.4,
-      "poster": ""
-    },
-    {
-      "id": 33,
-      "type": "movie",
-      "title": "Django Unchained",
-      "year": 2012,
-      "genre": ["Western", "Drama"],
-      "rating": 8.4,
-      "poster": ""
-    },
-    {
-      "id": 34,
-      "type": "movie",
-      "title": "The Wolf of Wall Street",
-      "year": 2013,
-      "genre": ["Biography"],
-      "rating": 8.2,
-      "poster": ""
-    },
-    {
-      "id": 35,
-      "type": "movie",
-      "title": "Batman Begins",
-      "year": 2005,
-      "genre": ["Action"],
-      "rating": 8.2,
-      "poster": ""
-    },
-    {
-      "id": 36,
-      "type": "movie",
-      "title": "The Truman Show",
-      "year": 1998,
-      "genre": ["Drama"],
-      "rating": 8.2,
-      "poster": ""
-    },
-    {
-      "id": 37,
-      "type": "movie",
-      "title": "A Beautiful Mind",
-      "year": 2001,
-      "genre": ["Biography"],
-      "rating": 8.2,
-      "poster": ""
-    },
-    {
-      "id": 38,
-      "type": "movie",
-      "title": "Toy Story",
-      "year": 1995,
-      "genre": ["Animation"],
-      "rating": 8.3,
-      "poster": ""
-    },
-    {
-      "id": 39,
-      "type": "movie",
-      "title": "Coco",
-      "year": 2017,
-      "genre": ["Animation"],
-      "rating": 8.4,
-      "poster": ""
-    },
-    {
-      "id": 40,
-      "type": "movie",
-      "title": "Up",
-      "year": 2009,
-      "genre": ["Animation"],
-      "rating": 8.3,
-      "poster": ""
-    },
-    {
-      "id": 41,
-      "type": "movie",
-      "title": "La La Land",
-      "year": 2016,
-      "genre": ["Romance", "Drama"],
-      "rating": 8.0,
-      "poster": ""
-    },
-    {
-      "id": 42,
-      "type": "movie",
-      "title": "Arrival",
-      "year": 2016,
-      "genre": ["Sci-Fi"],
-      "rating": 7.9,
-      "poster": ""
-    },
-    {
-      "id": 43,
-      "type": "movie",
-      "title": "Her",
-      "year": 2013,
-      "genre": ["Romance", "Sci-Fi"],
-      "rating": 8.0,
-      "poster": ""
-    },
-    {
-      "id": 44,
-      "type": "movie",
-      "title": "Mad Max: Fury Road",
-      "year": 2015,
-      "genre": ["Action"],
-      "rating": 8.1,
-      "poster": ""
-    },
-    {
-      "id": 45,
-      "type": "movie",
-      "title": "Blade Runner 2049",
-      "year": 2017,
-      "genre": ["Sci-Fi"],
-      "rating": 8.0,
-      "poster": ""
-    },
-    {
-      "id": 46,
-      "type": "movie",
-      "title": "The Social Network",
-      "year": 2010,
-      "genre": ["Biography"],
-      "rating": 7.7,
-      "poster": ""
-    },
-    {
-      "id": 47,
-      "type": "movie",
-      "title": "Black Swan",
-      "year": 2010,
-      "genre": ["Drama"],
-      "rating": 8.0,
-      "poster": ""
-    },
-    {
-      "id": 48,
-      "type": "movie",
-      "title": "Shutter Island",
-      "year": 2010,
-      "genre": ["Thriller"],
-      "rating": 8.2,
-      "poster": ""
-    },
-    {
-      "id": 49,
-      "type": "movie",
-      "title": "No Country for Old Men",
-      "year": 2007,
-      "genre": ["Crime"],
-      "rating": 8.1,
-      "poster": ""
-    },
-    {
-      "id": 50,
-      "type": "movie",
-      "title": "The Grand Budapest Hotel",
-      "year": 2014,
-      "genre": ["Comedy", "Drama"],
-      "rating": 8.1,
-      "poster": ""
-    }
-  ]
-  
+  {
+    "id": 1,
+    "type": "movie",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genre": ["Drama"],
+    "rating": 9.3,
+    "poster": "images/movies/1.jpg",
+    "overview": "Haksız yere hapse atılan Andy Dufresne’in, Shawshank Hapishanesi’nde yıllar süren umut ve özgürlük mücadelesini anlatır."
+  },
+  {
+    "id": 2,
+    "type": "movie",
+    "title": "The Godfather",
+    "year": 1972,
+    "genre": ["Crime", "Drama"],
+    "rating": 9.2,
+    "poster": "images/movies/2.jpg",
+    "overview": "Corleone ailesinin mafya dünyasındaki yükselişi ve aile içi güç savaşlarını konu alan bir suç destanıdır."
+  },
+  {
+    "id": 3,
+    "type": "movie",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": ["Action", "Crime"],
+    "rating": 9.0,
+    "poster": "images/movies/3.jpg",
+    "overview": "Batman’in Gotham’da düzeni sağlamak için Joker adlı kaotik bir suç dehasıyla verdiği psikolojik savaşı anlatır."
+  },
+  {
+    "id": 4,
+    "type": "movie",
+    "title": "The Godfather Part II",
+    "year": 1974,
+    "genre": ["Crime", "Drama"],
+    "rating": 9.0,
+    "poster": "images/movies/4.jpg",
+    "overview": "Michael Corleone’nin mafya liderliğini sürdürme çabası ile genç Vito Corleone’nin geçmişini paralel anlatır."
+  },
+  {
+    "id": 5,
+    "type": "movie",
+    "title": "12 Angry Men",
+    "year": 1957,
+    "genre": ["Drama"],
+    "rating": 9.0,
+    "poster": "images/movies/5.jpg",
+    "overview": "Bir cinayet davasında jüri üyelerinin ön yargı, adalet ve vicdan üzerine yaptığı tartışmayı konu alır."
+  },
+  {
+    "id": 6,
+    "type": "movie",
+    "title": "Schindler's List",
+    "year": 1993,
+    "genre": ["Biography", "Drama"],
+    "rating": 8.9,
+    "poster": "images/movies/6.jpg",
+    "overview": "II. Dünya Savaşı sırasında binlerce Yahudi’yi kurtaran Oskar Schindler’in gerçek hikâyesini anlatır."
+  },
+  {
+    "id": 7,
+    "type": "movie",
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "genre": ["Fantasy", "Adventure"],
+    "rating": 8.9,
+    "poster": "images/movies/7.jpg",
+    "overview": "Yüzük Savaşı’nın son aşamasında Orta Dünya’nın kaderi için verilen epik mücadeleyi konu alır."
+  },
+  {
+    "id": 8,
+    "type": "movie",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genre": ["Crime"],
+    "rating": 8.9,
+    "poster": "images/movies/8.jpg",
+    "overview": "Birbirine dolanan suç hikâyeleri, sıra dışı karakterler ve kara mizah ile anlatılır."
+  },
+  {
+    "id": 9,
+    "type": "movie",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genre": ["Fantasy", "Adventure"],
+    "rating": 8.8,
+    "poster": "images/movies/9.jpg",
+    "overview": "Tek Yüzük’ü yok etmek için kurulan dostluk ve macera dolu yolculuğun başlangıcını anlatır."
+  },
+  {
+    "id": 10,
+    "type": "movie",
+    "title": "Fight Club",
+    "year": 1999,
+    "genre": ["Drama"],
+    "rating": 8.8,
+    "poster": "images/movies/10.jpg",
+    "overview": "Modern toplumun yabancılaştırıcı etkisine karşı isyan eden bir adamın karanlık dönüşümünü anlatır."
+  },
+  {
+    "id": 11,
+    "type": "movie",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genre": ["Drama", "Romance"],
+    "rating": 8.8,
+    "poster": "images/movies/11.jpg",
+    "overview": "Zihinsel engellerine rağmen saf kalbiyle Amerikan tarihinin önemli anlarına tanıklık eden Forrest Gump’ın hayat hikâyesini anlatır."
+  },
+  {
+    "id": 12,
+    "type": "movie",
+    "title": "Inception",
+    "year": 2010,
+    "genre": ["Sci-Fi", "Action"],
+    "rating": 8.8,
+    "poster": "images/movies/12.jpg",
+    "overview": "Rüyaların içinde rüya yaratarak zihinlere fikir yerleştirmeye çalışan bir ekibin tehlikeli görevini konu alır."
+  },
+  {
+    "id": 13,
+    "type": "movie",
+    "title": "The Lord of the Rings: The Two Towers",
+    "year": 2002,
+    "genre": ["Fantasy", "Adventure"],
+    "rating": 8.8,
+    "poster": "images/movies/13.jpg",
+    "overview": "Yüzük Kardeşliği’nin dağılmasının ardından Orta Dünya’da verilen mücadeleleri paralel hikâyelerle anlatır."
+  },
+  {
+    "id": 14,
+    "type": "movie",
+    "title": "SStar Wars: The Clone Wars",
+    "year": 2008,
+    "genre": ["Sci-Fi"],
+    "rating": 5.9,
+    "poster": "images/movies/14.jpg",
+    "overview": "Galaktik Cumhuriyet ile Ayrılıkçı güçler arasındaki Klon Savaşları döneminde yaşanan çatışmaları konu alır."
+  },
+  {
+    "id": 15,
+    "type": "movie",
+    "title": "The Matrix",
+    "year": 1999,
+    "genre": ["Sci-Fi", "Action"],
+    "rating": 8.7,
+    "poster": "images/movies/15.jpg",
+    "overview": "Gerçek sandığımız dünyanın aslında bir simülasyon olduğunu keşfeden Neo’nun uyanış hikâyesini anlatır."
+  },
+  {
+    "id": 16,
+    "type": "movie",
+    "title": "Goodfellas",
+    "year": 1990,
+    "genre": ["Crime"],
+    "rating": 8.7,
+    "poster": "images/movies/16.jpg",
+    "overview": "Bir adamın genç yaşta mafya dünyasına girip suç ve güç içinde yükselişini anlatan gerçekçi bir gangster hikâyesidir."
+  },
+  {
+    "id": 17,
+    "type": "movie",
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": 1975,
+    "genre": ["Drama"],
+    "rating": 8.7,
+    "poster": "images/movies/17.jpg",
+    "overview": "Bir akıl hastanesinde otoriter düzene karşı çıkan asi bir adamın özgürlük mücadelesini konu alır."
+  },
+  {
+    "id": 18,
+    "type": "movie",
+    "title": "Seven Samurai",
+    "year": 1954,
+    "genre": ["Adventure"],
+    "rating": 8.6,
+    "poster": "images/movies/18.jpg",
+    "overview": "Köylerini haydutlardan korumak isteyen köylülerin, yedi samuraydan yardım istemesini anlatan epik bir maceradır."
+  },
+  {
+    "id": 19,
+    "type": "movie",
+    "title": "Se7en",
+    "year": 1995,
+    "genre": ["Crime", "Thriller"],
+    "rating": 8.6,
+    "poster": "images/movies/19.jpg",
+    "overview": "Yedi ölümcül günahı temel alan seri cinayetleri çözmeye çalışan iki dedektifin karanlık hikâyesini anlatır."
+  },
+  {
+    "id": 20,
+    "type": "movie",
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": ["Sci-Fi", "Drama"],
+    "rating": 8.6,
+    "poster": "images/movies/20.jpg",
+    "overview": "İnsanlığın hayatta kalması için uzayda yeni bir yaşam alanı arayan bir ekibin duygusal ve bilimsel yolculuğunu konu alır."
+  },
+  {
+    "id": 21,
+    "type": "movie",
+    "title": "City of God",
+    "year": 2002,
+    "genre": ["Crime"],
+    "rating": 8.6,
+    "poster": "images/movies/21.jpg",
+    "overview": "Rio de Janeiro’nun suç dolu varoşlarında büyüyen gençlerin sert ve gerçekçi yaşam mücadelesini anlatır."
+  },
+  {
+    "id": 22,
+    "type": "movie",
+    "title": "Spirited Away",
+    "year": 2001,
+    "genre": ["Animation", "Fantasy"],
+    "rating": 8.6,
+    "poster": "images/movies/22.jpg",
+    "overview": "Ruhlar dünyasında kaybolan küçük bir kızın ailesini kurtarmak için verdiği büyülü mücadeleyi anlatır."
+  },
+  {
+    "id": 23,
+    "type": "movie",
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "genre": ["War", "Drama"],
+    "rating": 8.6,
+    "poster": "images/movies/23.jpg",
+    "overview": "II. Dünya Savaşı sırasında bir askeri kurtarmakla görevlendirilen birliğin zorlu yolculuğunu konu alır."
+  },
+  {
+    "id": 24,
+    "type": "movie",
+    "title": "The Green Mile",
+    "year": 1999,
+    "genre": ["Drama"],
+    "rating": 8.6,
+    "poster": "images/movies/24.jpg",
+    "overview": "Doğaüstü güçlere sahip bir mahkûm ile hapishane görevlileri arasında gelişen dokunaklı hikâyeyi anlatır."
+  },
+  {
+    "id": 25,
+    "type": "movie",
+    "title": "Parasite",
+    "year": 2019,
+    "genre": ["Thriller", "Drama"],
+    "rating": 8.5,
+    "poster": "images/movies/25.jpg",
+    "overview": "Fakir bir ailenin zengin bir ailenin hayatına sızmasıyla sınıf çatışmasını çarpıcı biçimde işler."
+  },
+  {
+    "id": 26,
+    "type": "movie",
+    "title": "Gladiator",
+    "year": 2000,
+    "genre": ["Action", "Drama"],
+    "rating": 8.5,
+    "poster": "images/movies/26.jpg",
+    "overview": "İhanete uğrayan bir Roma generalinin intikam ve onur mücadelesini anlatan destansı bir hikâyedir."
+  },
+  {
+    "id": 27,
+    "type": "movie",
+    "title": "Whiplash",
+    "year": 2014,
+    "genre": ["Drama"],
+    "rating": 8.5,
+    "poster": "images/movies/27.jpg",
+    "overview": "Mükemmelliğe ulaşmak isteyen genç bir davulcu ile acımasız hocası arasındaki psikolojik savaşı anlatır."
+  },
+  {
+    "id": 28,
+    "type": "movie",
+    "title": "The Prestige",
+    "year": 2006,
+    "genre": ["Drama", "Mystery"],
+    "rating": 8.5,
+    "poster": "images/movies/28.jpg",
+    "overview": "İki sihirbazın rekabetinin zamanla saplantılı ve karanlık bir mücadeleye dönüşmesini konu alır."
+  },
+  {
+    "id": 29,
+    "type": "movie",
+    "title": "The Departed",
+    "year": 2006,
+    "genre": ["Crime"],
+    "rating": 8.5,
+    "poster": "images/movies/29.jpg",
+    "overview": "Polis ile mafya arasındaki köstebek oyununu ve kimlik karmaşasını merkezine alan bir suç gerilimidir."
+  },
+  {
+    "id": 30,
+    "type": "movie",
+    "title": "The Lion King",
+    "year": 1994,
+    "genre": ["Animation", "Drama"],
+    "rating": 8.5,
+    "poster": "images/movies/30.jpg",
+    "overview": "Babasının ölümünden sonra sürgüne giden Simba’nın krallığını geri alma yolculuğunu anlatır."
+  },
+  {
+    "id": 31,
+    "type": "movie",
+    "title": "Joker",
+    "year": 2019,
+    "genre": ["Drama", "Crime"],
+    "rating": 8.4,
+    "poster": "images/movies/31.jpg",
+    "overview": "Toplum tarafından dışlanan Arthur Fleck’in Joker kimliğine dönüşerek Gotham’da kaosu başlatmasını anlatır."
+  },
+  {
+    "id": 32,
+    "type": "movie",
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "genre": ["Action"],
+    "rating": 8.4,
+    "poster": "images/movies/32.jpg",
+    "overview": "Evrenin kaderini belirleyecek sonsuzluk taşlarını ele geçirmek isteyen Thanos’a karşı süper kahramanların mücadelesini anlatır."
+  },
+  {
+    "id": 33,
+    "type": "movie",
+    "title": "Django Unchained",
+    "year": 2012,
+    "genre": ["Western", "Drama"],
+    "rating": 8.4,
+    "poster": "images/movies/33.jpg",
+    "overview": "Kölelik döneminde özgürlüğüne kavuşan Django’nun eşini kurtarmak için verdiği intikam dolu mücadeleyi anlatır."
+  },
+  {
+    "id": 34,
+    "type": "movie",
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "genre": ["Biography"],
+    "rating": 8.2,
+    "poster": "images/movies/34.jpg",
+    "overview": "Borsa dünyasında hızlı yükselen Jordan Belfort’un lüks, para ve suç dolu yaşamını konu alır."
+  },
+  {
+    "id": 35,
+    "type": "movie",
+    "title": "Batman Begins",
+    "year": 2005,
+    "genre": ["Action"],
+    "rating": 8.2,
+    "poster": "images/movies/35.jpg",
+    "overview": "Bruce Wayne’in Batman’e dönüşme sürecini ve Gotham’ı koruma kararının arkasındaki nedenleri anlatır."
+  },
+  {
+    "id": 36,
+    "type": "movie",
+    "title": "The Truman Show",
+    "year": 1998,
+    "genre": ["Drama"],
+    "rating": 8.2,
+    "poster": "images/movies/36.jpg",
+    "overview": "Hayatının bir televizyon programı olduğunu bilmeden yaşayan Truman’ın gerçeği keşfetmesini konu alır."
+  },
+  {
+    "id": 37,
+    "type": "movie",
+    "title": "A Beautiful Mind",
+    "year": 2001,
+    "genre": ["Biography"],
+    "rating": 8.2,
+    "poster": "images/movies/37.jpg",
+    "overview": "Dahi matematikçi John Nash’in zihinsel hastalığıyla mücadelesini ve başarı yolculuğunu anlatır."
+  },
+  {
+    "id": 38,
+    "type": "movie",
+    "title": "Toy Story",
+    "year": 1995,
+    "genre": ["Animation"],
+    "rating": 8.3,
+    "poster": "images/movies/38.jpg",
+    "overview": "Oyuncakların gizli dünyasında geçen, dostluk ve aidiyet temasını işleyen eğlenceli bir animasyondur."
+  },
+  {
+    "id": 39,
+    "type": "movie",
+    "title": "Coco",
+    "year": 2017,
+    "genre": ["Animation"],
+    "rating": 8.4,
+    "poster": "images/movies/39.jpg",
+    "overview": "Müzik tutkusu olan Miguel’in Ölüler Diyarı’na yaptığı büyülü yolculuğu ve ailesinin geçmişini keşfetmesini anlatır."
+  },
+  {
+    "id": 40,
+    "type": "movie",
+    "title": "Up",
+    "year": 2009,
+    "genre": ["Animation"],
+    "rating": 8.3,
+    "poster": "images/movies/40.jpg",
+    "overview": "Hayallerini gerçekleştirmek için evini balonlarla havaya kaldıran yaşlı bir adamın dokunaklı macerasını anlatır."
+  },
+  {
+    "id": 41,
+    "type": "movie",
+    "title": "La La Land",
+    "year": 2016,
+    "genre": ["Romance", "Drama"],
+    "rating": 8.0,
+    "poster": "images/movies/41.jpg",
+    "overview": "Hayallerinin peşinden giden iki sanatçının aşk ve kariyer arasında verdiği zor kararları konu alır."
+  },
+  {
+    "id": 42,
+    "type": "movie",
+    "title": "Arrival",
+    "year": 2016,
+    "genre": ["Sci-Fi"],
+    "rating": 7.9,
+    "poster": "images/movies/42.jpg",
+    "overview": "Dünyaya gelen uzaylılarla iletişim kurmaya çalışan bir dilbilimcinin zaman algısını sorgulayan hikâyesini anlatır."
+  },
+  {
+    "id": 43,
+    "type": "movie",
+    "title": "Her",
+    "year": 2013,
+    "genre": ["Romance", "Sci-Fi"],
+    "rating": 8.0,
+    "poster": "images/movies/43.jpg",
+    "overview": "Yalnız bir adamın yapay zekâya âşık olması üzerinden modern ilişkileri ve yalnızlığı ele alır."
+  },
+  {
+    "id": 44,
+    "type": "movie",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "genre": ["Action"],
+    "rating": 8.1,
+    "poster": "images/movies/44.jpg",
+    "overview": "Post-apokaliptik bir dünyada hayatta kalmaya çalışan karakterlerin soluksuz bir kaçış hikâyesini anlatır."
+  },
+  {
+    "id": 45,
+    "type": "movie",
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "genre": ["Sci-Fi"],
+    "rating": 8.0,
+    "poster": "images/movies/45.jpg",
+    "overview": "İnsan ve yapay varlıklar arasındaki sınırların sorgulandığı karanlık bir gelecek hikâyesini konu alır."
+  },
+  {
+    "id": 46,
+    "type": "movie",
+    "title": "The Social Network",
+    "year": 2010,
+    "genre": ["Biography"],
+    "rating": 7.7,
+    "poster": "images/movies/46.jpg",
+    "overview": "Facebook’un kuruluş sürecini ve bu süreçte yaşanan dostluk ve ihanetleri anlatır."
+  },
+  {
+    "id": 47,
+    "type": "movie",
+    "title": "Black Swan",
+    "year": 2010,
+    "genre": ["Drama"],
+    "rating": 8.0,
+    "poster": "images/movies/47.jpg",
+    "overview": "Mükemmellik takıntısı olan bir balerinin psikolojik çöküşünü karanlık bir dille ele alır."
+  },
+  {
+    "id": 48,
+    "type": "movie",
+    "title": "Shutter Island",
+    "year": 2010,
+    "genre": ["Thriller"],
+    "rating": 8.2,
+    "poster": "images/movies/48.jpg",
+    "overview": "Akıl hastanesinde geçen bir soruşturmanın beklenmedik gerçeklerle yüzleşmeye dönüşmesini anlatır."
+  },
+  {
+    "id": 49,
+    "type": "movie",
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "genre": ["Crime"],
+    "rating": 8.1,
+    "poster": "images/movies/49.jpg",
+    "overview": "Tesadüfen büyük bir para bulan bir adamın, acımasız bir katil tarafından kovalanmasını konu alır."
+  },
+  {
+    "id": 50,
+    "type": "movie",
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "genre": ["Comedy", "Drama"],
+    "rating": 8.1,
+    "poster": "images/movies/50.jpg",
+    "overview": "Renkli karakterlerle dolu bir otelde geçen absürt ve eğlenceli bir macerayı anlatır."
+  }
+]

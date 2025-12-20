@@ -1,235 +1,365 @@
+/* -------- RESET -------- */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  body {
-    background: #0f172a;
-    color: #e5e7eb;
-    min-height: 100vh;
-  }
-  
-  .header {
-    padding: 1rem;
-    background: #020617;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-  
-  .logo {
-    font-size: 1.4rem;
-  }
-  
-  .controls {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-  
-  .controls input,
-  .controls select,
-  .controls button {
-    padding: 0.5rem;
-    border-radius: 6px;
-    border: none;
-  }
-  
-  .controls button {
-    cursor: pointer;
-    background: #6366f1;
-    color: white;
-  }
-  
-  .section {
-    padding: 1.5rem;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  .grid {
-    margin-top: 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 1rem;
-  }
-  
-  /* Kart placeholder */
-  .grid::after {
-    content: "Filmler yüklenecek…";
-    opacity: 0.6;
-  }
-  
-  .footer {
-    text-align: center;
-    padding: 1rem;
-    background: #020617;
-    margin-top: auto;
-  }
-  
-  /* Responsive */
-  @media (max-width: 600px) {
-    .header {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  }
-  
-  .movie-card {
-    background: #020617;
-    border-radius: 10px;
-    padding: 0.5rem;
-    transition: transform 0.2s;
-  }
-  
-  .movie-card img {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  .movie-card h3 {
-    font-size: 1rem;
-    margin: 0.5rem 0 0.2rem;
-  }
-  
-  .movie-card p {
-    font-size: 0.85rem;
-    opacity: 0.8;
-  }
-  
-  .movie-card:hover {
-    transform: scale(1.05);
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .controls button.active {
-    background: #22c55e;
-  }
-  
-  #movieDetail {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-  }
-  
-  #movieDetail img {
-    max-width: 300px;
-    border-radius: 12px;
-  }
-  
-  .detail-info {
-    max-width: 500px;
-  }
-  
-  .detail-info h2 {
-    margin-bottom: 0.5rem;
-  }
-  
-  .detail-info p {
-    margin: 0.4rem 0;
-    opacity: 0.9;
-  }
-  
-  #backBtn {
-    margin-bottom: 1rem;
-    padding: 0.5rem 1rem;
-    background: #334155;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-  }
+/* -------- BASE -------- */
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  min-height: 100vh;
+}
 
-  .movie-card {
-    position: relative;
-  }
-  
-  /* ⭐ normalde görünmez */
-  .fav-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-  
-    background: none;
-    border: none;
-    font-size: 1.6rem;
-    cursor: pointer;
-  
-    color: #facc15;
-  
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s ease, transform 0.2s ease;
-  }
-  
-  /* hover olunca çıksın */
-  .movie-card:hover .fav-btn {
-    opacity: 1;
-    pointer-events: auto;
-  }
-  
-  /* favoriye ekliyse sabit kalsın */
-  .fav-btn.active {
-    opacity: 1;
-    pointer-events: auto;
-  }
-  
-  .fav-btn:hover {
-    transform: scale(1.2);
-  }
-  
-  /* -------- MODAL -------- */
+main {
+  padding: 0 4rem;   /* sağ–sol boşluk */
+}
 
+/* -------- HEADER -------- */
+.header {
+  padding: 1.2rem 1rem;
+  background: #020617;
+
+  display: flex;
+  flex-direction: column;   /* ⭐ ALT ALTA */
+  align-items: center;      /* ⭐ ORTALA */
+  gap: 1rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.site-title {
+  font-size: 3.4rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    90deg,
+    #facc15,
+    #fde68a
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 0 0 25px rgba(250, 204, 21, 0.25);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* ⭐ BUTONLAR ORTADA */
+  gap: 0.5rem;
+}
+
+.controls input,
+.controls select,
+.controls button {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+}
+
+.controls button {
+  cursor: pointer;
+  background: #6366f1;
+  color: white;
+}
+
+.controls button.active {
+  background: #facc15;
+  color: #020617;
+}
+
+/* -------- GRID -------- */
+.grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* ⭐ her satırda 5 kart */
+  gap: 1.2rem;
+}
+
+/* -------- MOVIE CARD -------- */
+.movie-card {
+  background: #020617;
+  border-radius: 10px;
+  padding: 0.5rem;
+  padding-bottom: 2.5rem; /* favori alanı */
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.movie-card:hover {
+  box-shadow:
+    0 0 10px rgba(250, 204, 21, 0.6),
+    0 0 25px rgba(250, 204, 21, 0.4);
+  transform: translateY(-4px);
+}
+
+.movie-card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #020617;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover img {
+  transform: scale(1.05);
+}
+
+.movie-card h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.movie-card p {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* -------- FAVORI BUTTON -------- */
+.fav-btn {
+  position: absolute;
+  left: 6px;
+  bottom: 8px;
+
+  background: rgba(2, 6, 23, 0.85);
+  border: 1px solid rgba(250, 204, 21, 0.6);
+  border-radius: 6px;
+
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  color: #facc15;
+
+  cursor: pointer;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.movie-card:hover .fav-btn {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.fav-btn.active {
+  opacity: 1;
+  pointer-events: auto;
+  font-size: 1.2rem;
+  padding: 2px 6px;
+}
+
+.fav-btn:hover {
+  transform: none;
+}
+
+/* -------- MODAL -------- */
 .modal {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-  }
-  
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: #020617;
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 700px;
+  width: 90%;
+
+  display: flex;
+  flex-direction: row; /* POSTER SOLDA – YAZI SAĞDA */
+  align-items: flex-start;
+  gap: 1.5rem;
+
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+.modal:not(.hidden) .modal-content {
+  box-shadow:
+    0 0 15px rgba(250, 204, 21, 0.6),
+    0 0 40px rgba(250, 204, 21, 0.4);
+}
+
+.modal-content img {
+  width: 250px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+#modalDetail {
+  display: flex;
+  flex-direction: row;   /* ⭐ ASIL OLAY BURADA */
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+#modalDetail img {
+  width: 250px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+#modalDetail .detail-info {
+  flex: 1;
+}
+
+/* -------- DETAIL INFO -------- */
+.detail-info {
+  flex: 1;
+  max-width: 500px;
+}
+
+.detail-info h2 {
+  font-size: 1.8rem;   /* başlık büyüdü */
+}
+
+.detail-info p {
+  font-size: 1.05rem;  /* normal yazılar büyüdü */
+  line-height: 1.6;
+}
+
+.detail-info strong {
+  font-size: 1.1rem;  /* Yıl / Tür / Özet başlıkları */
+}
+
+.detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* -------- CLOSE BTN -------- */
+#closeModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #e5e7eb;
+}
+
+/* -------- RESPONSIVE -------- */
+@media (max-width: 600px) {
   .modal-content {
-    background: #020617;
-    padding: 1.5rem;
-    border-radius: 12px;
-    max-width: 700px;
-    width: 90%;
-    display: flex;
-    gap: 1.5rem;
-    position: relative;
-  }
-  
-  .modal-content img {
-    width: 250px;
-    border-radius: 10px;
-  }
-  
-  #closeModal {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 1.4rem;
-    cursor: pointer;
-    color: #e5e7eb;
-  }
-  
-  .modal.hidden {
-    display: none;
-  }
-  
-  .controls button.active {
-    background: #facc15;
-    color: #020617;
+    flex-direction: column;
+    align-items: center;
   }
 
-  
-  
+  .modal-content img {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  #modalDetail {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #modalDetail img {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* -------- DETAY FAVORI BUTONU -------- */
+.detail-fav-btn {
+  margin-top: 0.8rem;
+  align-self: flex-start;
+
+  background: rgba(2, 6, 23, 0.9);
+  border: 1px solid rgba(250, 204, 21, 0.6);
+  border-radius: 6px;
+
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  color: #facc15;
+
+  cursor: pointer;
+
+  /* önemli: büyüme olmasın */
+  transform: none !important;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* hover sadece renk değiştirsin */
+.detail-fav-btn:hover {
+  background: rgba(250, 204, 21, 0.15);
+}
+
+#sortSelect {
+  padding: 0.35rem 0.5rem;   /* 🔽 daha küçük */
+  font-size: 0.85rem;        /* 🔽 yazı küçüldü */
+  border-radius: 6px;
+  border: none;
+  background: #334155;
+  color: #e5e7eb;
+  cursor: pointer;
+}
+
+#sortSelect option[value=""] {
+  color: #94a3b8;
+}
+
+/* Ara + Tür + Sırala aynı stil */
+.controls input,
+.controls select,
+#sortSelect {
+  background: #334155;
+  color: #e5e7eb;
+  padding: 0.4rem 0.55rem;   /* biraz daha küçük */
+  border-radius: 6px;
+  border: none;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+}

@@ -3,24 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Film & Dizi Arşivi</title>
+  <title>MovieBase</title>
   <link rel="stylesheet" href="css/style.css" />
   <script src="js/app.js" defer></script>
 </head>
 <body>
 
   <header class="header">
-    <h1>🎬 Film & Dizi Arşivi</h1>
+    <h1 class="site-title">MovieBase</h1>
+<p class="site-subtitle">Film & Dizi Arşivi</p>
 
     <div class="controls">
       <button id="moviesBtn" class="active">Filmler</button>
       <button id="seriesBtn">Diziler</button>
-      <button id="favoritesBtn">⭐ Favorilerim</button>
+      <button id="favoritesBtn">Favorilerim</button>
 
       <input type="text" id="searchInput" placeholder="Ara..." />
+
       <select id="genreFilter">
         <option value="">Tüm Türler</option>
-      </select>
+      </select>    
+
+      <select id="sortSelect">
+        <option value="">Sırala</option>
+        <option value="rating-desc">IMDb (Yüksek → Düşük)</option>
+        <option value="rating-asc">IMDb (Düşük → Yüksek)</option>
+        <option value="title-asc">İsim (A → Z)</option>
+        <option value="title-desc">İsim (Z → A)</option>
+        <option value="year-desc">Yıl (Yeni → Eski)</option>
+        <option value="year-asc">Yıl (Eski → Yeni)</option>
+      </select> 
     </div>
   </header>
 
