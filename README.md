@@ -15,6 +15,3 @@ Film & Dizi arşiv uygulamasıdır.
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
-## Geliştirme Durumu
-- UI/UX iyileştirmeleri devam ediyor
-
