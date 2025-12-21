@@ -82,7 +82,7 @@ main {
   margin-top: 1rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* ⭐ her satırda 5 kart */
-  gap: 1.2rem;
+  gap: 1.3rem;
 }
 
 /* -------- MOVIE CARD -------- */
@@ -99,7 +99,7 @@ main {
   box-shadow:
     0 0 10px rgba(250, 204, 21, 0.6),
     0 0 25px rgba(250, 204, 21, 0.4);
-  transform: translateY(-4px);
+  transform: translateY(-3px);
 }
 
 .movie-card img {
