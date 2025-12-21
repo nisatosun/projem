@@ -1,15 +1,23 @@
-# Film & Dizi Arşivi 🎬
+# MovieBase
+Film & Dizi Arşivi
 
-Bu proje, Web Teknolojileri dersi kapsamında geliştirilmiş bir
-Film & Dizi arşiv uygulamasıdır.
+MovieBase; film ve dizileri listeleyebileceğiniz, detaylarını inceleyebileceğiniz ve favorilerinizi yönetebileceğiniz modern, sade ve kullanıcı dostu bir web uygulamasıdır.
+Proje, Web Teknolojileri dersi kapsamında geliştirilmiştir.
 
 ## Özellikler
 - Film ve dizi listeleme
-- Modal (popup) detay görünümü
+- İsim bazlı arama
+- Tür filtresi
 - Favorilere ekleme / çıkarma
-- Favoriler filtresi
-- localStorage kullanımı
-- SPA (Single Page Application) mantığı
+- Gelişmiş sıralama seçenekleri:
+    IMDb puanı (yüksek → düşük)
+    IMDb puanı (düşük → yüksek)
+    İsim (A → Z / Z → A)
+    Yıl (yeni → eski / eski → yeni)
+- Modal detay görünümü
+- Favorilerin localStorage ile saklanması
+- Dark tema & modern UI
+- Responsive (mobil uyumlu) tasarım
 
 ## Kullanılan Teknolojiler
 - HTML5
